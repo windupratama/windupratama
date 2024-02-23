@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Felidae';
+  src: url(assets/fonts/felidae/Felidae.ttf);
+}
+
+/* @font-face {
+  font-family: 'Felidae';
+  src: url(assets/fonts/Merchant/Web-TT/Merchant-Thin.woff2);
+} */
+
+@font-face {
+  font-family: 'Manrope';
+  src: url(assets/fonts/manrope/Manrope.ttf);
+}
+
+@font-face {
+  font-family: 'DT';
+  src: url(assets/fonts/DT/DTNightingale-Light.otf);
+}
+
+@font-face {
+  font-family: 'Kudri';
+  src: url(assets/fonts/Kudry_otf/kudry_weird-headline.otf);
+}
+
+@font-face {
+  font-family: 'Happy Time';
+  src: url(assets/fonts/happy_time/HappyTime.otf);
+}
+
+@font-face {
+  font-family: 'Nyght Serif';
+  src: url(assets/fonts/NYGHT_SERIF_0_5/Web/WOFF2/NyghtSerif-LightItalic.woff2);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* disabled */
+  *::-webkit-scrollbar {
+    /* @apply hidden; */
+    @apply bg-avana w-[0.5vw];
+  }
+
+  *::-webkit-scrollbar-thumb {
+    @apply bg-strongblue;
+  }
+
+  * {
+    @apply m-0 mx-auto p-0;
+  }
+
+  body {
+    @apply m-0 font-helvetica antialiased;
+  }
+
+  .container {
+    @apply flex flex-col min-w-full overflow-hidden;
+  }
+
+  .wrapper {
+    @apply flex overflow-hidden;
+  }
+
+  .reset-format {
+    @apply m-0 p-0;
+  }
+
+  .left-right-space {
+    @apply w-[90%] max-w-[1920px];
+  }
+
+  .left-right-full {
+    @apply w-full max-w-[1920px];
+  }
+
+  .link {
+    @apply text-white no-underline bg-gradient-to-r bg-left-bottom bg-no-repeat transition-[background-size] ease-in-out duration-500
+  }
+
+  .debug {
+    @apply border border-black;
+  }
+}
+
+*, html, button {
+  cursor: none;
+}
