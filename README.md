@@ -1,3 +1,5 @@
+[![Banner](/assets/images/banner.png)](/assets/images/banner.png)
+
 ### Hello world,
 
 I'm an Information Systems student who also happens to love art.
