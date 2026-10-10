@@ -1,4 +1,6 @@
-### Information Systems student who loves art.
+### Hello world,
+
+I'm an Information Systems student who also happens to love art.
 
 ### Languages and tools
 
